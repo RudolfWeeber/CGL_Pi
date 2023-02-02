@@ -10,4 +10,3 @@ class PiEstimator(abc.ABC):
     @abc.abstractmethod
     def estimate(self):
         """Estimate pi."""
-
