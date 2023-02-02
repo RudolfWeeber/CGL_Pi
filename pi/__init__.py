@@ -3,6 +3,7 @@ import abc
 
 import numpy as np
 
+
 class PiEstimator(abc.ABC):
     """Abstract base class for pi estimators."""
 
@@ -12,10 +13,11 @@ class PiEstimator(abc.ABC):
 
 
 class LeibnizPiEstimator(PiEstimator):
-
+    """Estimate pi using the Leibniz formula."""
 
     def __init__(self, n):
         """Initialize the Leibniz formula estimator.
+
         Parameters
         ----------
         n: int
