@@ -36,6 +36,7 @@ class MonteCarloPiEstimator(PiEstimator):
 
     def __init__(self, n):
         """Initialize the Monte Carlo estimator.
+        
         Parameters
         ----------
         n: int
