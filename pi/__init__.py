@@ -1,7 +1,8 @@
 """Estimate pi using various methods."""
 import abc
 
-import numpy as np
+
+# kommentar
 
 
 class PiEstimator(abc.ABC):
